@@ -1,0 +1,49 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Is Your Birthday Palindrome?</title>
+  </head>
+
+  <body>
+    <h1>Check if your Birthday is palindrome or not!</h1>
+    <p class="description">
+      This app checks your birthdate in 6 formats ddmmyyyy, mmddyyyy, yyyymmdd,
+      ddmmyy, mmddyy, yymmdd
+    </p>
+    <div id="input-div">
+      <label for="date">➡ Enter your Birthdate:</label>
+      <input type="date" id="date" />
+    </div>
+    <button id="check-btn">Check</button>
+    <img
+      id="loader"
+      src="https://media.giphy.com/media/KzPhDm4lBUPDQ1c7du/giphy-downsized-large.gif?cid=ecf05e47fr8mjtnea1ex0tzx6ksysn3tukgl28oqhvxeibkr&rid=giphy-downsized-large.gif&ct=g"
+      alt="loading"
+    />
+    <p id="message"></p>
+    <p class="msg" id="pre-palindrome"></p>
+    <p class="msg" id="next-palindrome"></p>
+
+    <footer class="foot">
+      <h2>About</h2>
+
+      <ul class="list">
+        <li><a href="https://github.com/DeveshVishnoi">Github</a></li>
+        <li>
+          <a href="https://www.linkedin.com/in/devesh-vishnoi-90aa571b8/"
+            >LinkedIn</a
+          >
+        </li>
+        <li><a href="https://discord.com/channels/@me">Discord</a></li>
+      </ul>
+    </footer>
+
+    <script src="/app.js"></script>
+  </body>
+</html>
